@@ -90,47 +90,118 @@ header li a::before {
   position: absolute;
   bottom: 0px;
   left: 0;
-  width:0;
+  width: 0;
   height: 1.5px;
-  background-color: white; 
-  transition:width .3s;
+  background-color: white;
+  transition: width .3s;
 }
 
 header li:hover a::before {
-  width: 100%; 
+  width: 100%;
 }
+
 /* 헤더 메뉴 호버 효과 끝 */
+
 
 /* 섹션 시작 */
 section {
   /* background-color: mediumvioletred; */
   width: 100vw;
   height: calc(100vh - 139.5px);
+  position: relative;
+  font-family: 'Playfair Display', serif;
 }
 
 section>.bg-line {
   width: 100%;
   height: 100%;
   /* background-color: midnightblue; */
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 section>.bg-line>div {
-position: absolute;
-width: 1px;
-height: 100%;
-background-color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 section>.bg-line>div:nth-of-type(1) {
-  left:25%;
+  left: 25%;
 }
 
 section>.bg-line>div:nth-of-type(2) {
-  left:50%;
+  left: 50%;
 }
 
 section>.bg-line>div:nth-of-type(3) {
-  left:75%;
+  left: 75%;
 }
+
+section>.main_txt {
+  position: absolute;
+  top: 135px;
+  left: 271px;
+  color: #FF2E34;
+  font-size: 225.611px;
+  line-height: 87.19%;
+  text-align: center;
+}
+
+section>.graphic1 {
+  position: absolute;
+  top: 111px;
+  right: 114px;
+  width: 440px;
+  z-index: 1;
+}
+
+section>.graphic2 {
+  position: absolute;
+  top: 563px;
+  left: 347px;
+  width: 1664.61px;
+}
+
+section>.sub_txt {
+  position: absolute;
+  top: 50%;
+  left: -100px;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.43em;
+  font-size: 15px;
+  transform: rotate(-90deg);
+}
+
+section>.info {
+  position: absolute;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 250%;
+  text-align: justify;
+  letter-spacing: 0.225em;
+  color: #FFFFFF;
+}
+
+section>.info1 {
+  width: 220px;
+  height: 99px;
+  top: 601px;
+  left: 271px;
+}
+
+section>.info2 {
+  width: 220px;
+  top: 601px;
+  left: 551px;
+}
+
+section>.button {
+  display: block;
+}
+
 /* 섹션 끝 */
