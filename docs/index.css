@@ -181,6 +181,29 @@ section>.graphic3 {
   transform: rotate(-27.53deg);
 }
 
+section>.graphic4 {
+  position: absolute;
+  width: 111px;
+  bottom: 100px;
+  right: 590px;
+  animation-name: around;
+  animation-duration: 15gis;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes around {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 section>.sub_txt {
   position: absolute;
   top: 50%;
