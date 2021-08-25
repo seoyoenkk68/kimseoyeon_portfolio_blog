@@ -145,7 +145,7 @@ section>.main_txt {
   top: 115px;
   left: 299px;
   color: #FF2E34;
-  font-size: 200px;
+  font-size: 220px;
   line-height: 87.19%;
   text-align: center;
 }
@@ -153,7 +153,7 @@ section>.main_txt {
 section>.graphic1>img {
   position: absolute;
   top: 111px;
-  right: 109px;
+  right: 150px;
   width: 400px;
   z-index: 2;
 }
@@ -169,7 +169,7 @@ section>.graphic2 {
   width: 1664.61px;
 }
 
-section>.graphic3 {
+section>.graphic3>.line {
   position: absolute;
   top: 180px;
   left: 380px;
@@ -179,6 +179,16 @@ section>.graphic3 {
   border: 2.27677px solid #5D669D;
   border-radius: 50%;
   transform: rotate(-27.53deg);
+}
+
+section>.graphic3>.circle {
+  position: absolute;
+  top: 112px;
+  left: 876px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #5D669D;
 }
 
 section>.graphic4 {
@@ -244,7 +254,7 @@ section>.button {
   position: absolute;
   z-index: 100;
   top: 550px;
-  left: 890px;
+  left: 900px;
   transform: scale(1);
   transition: transform 0.5s;
 }
