@@ -10,9 +10,6 @@
   <!-- 테일윈드 불러오기 -->
   <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
 
-  <!-- 제이쿼리 불러오기 -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
   <!-- swiper 불러오기 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.2/swiper-bundle.min.js"></script>
 
@@ -24,6 +21,10 @@
 
   <!-- JS 불러오기 -->
   <script src="index.js" defer></script>
+
+  <!-- 흔들림 효과 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
 
 </head>
 
@@ -45,7 +46,7 @@
       <div class="link">
         <ul class="flex h-full items-center justify-center">
           <li><a href="#">INSTAGRAM</a></li>
-          <li><a href="#">TECH BLOG</a></li>
+          <li><a href="https://wiken.io/b/241" target="_blank">TECH BLOG</a></li>
         </ul>
       </div>
     </div>
@@ -71,10 +72,14 @@
       <a href="#"><img src="/docs/img/img4.png" alt=""></a>
     </div>
     <div class="graphic1">
-      <img src="/docs/img/img1.png" alt="">
+      <img class="mousemove-effect-1-el" data-mousemove-effect1-hor-res="0.005" data-mousemove-effect1-ver-res="0.005" src="/docs/img/img1.png" alt="">
+      <img class="mousemove-effect-1-el" data-mousemove-effect1-hor-res="-0.005" data-mousemove-effect1-ver-res="-0.005" src="/docs/img/img5.png" alt="">
     </div>
     <div class="graphic2">
       <img src="/docs/img/img2.png" alt="">
+    </div>
+    <div class="graphic3">
+      <div></div>
     </div>
     <div class="bg-line">
       <div></div>

@@ -142,19 +142,23 @@ section>.bg-line>div:nth-of-type(3) {
 
 section>.main_txt {
   position: absolute;
-  top: 135px;
-  left: 271px;
+  top: 115px;
+  left: 299px;
   color: #FF2E34;
-  font-size: 225.611px;
+  font-size: 200px;
   line-height: 87.19%;
   text-align: center;
 }
 
-section>.graphic1 {
+section>.graphic1>img {
   position: absolute;
   top: 111px;
-  right: 114px;
-  width: 440px;
+  right: 109px;
+  width: 400px;
+  z-index: 2;
+}
+
+section>.graphic1>img:nth-of-type(2) {
   z-index: 1;
 }
 
@@ -165,14 +169,26 @@ section>.graphic2 {
   width: 1664.61px;
 }
 
+section>.graphic3 {
+  position: absolute;
+  top: 180px;
+  left: 380px;
+  z-index: -1;
+  width: 674.56px;
+  height: 248.62px;
+  border: 2.27677px solid #5D669D;
+  border-radius: 50%;
+  transform: rotate(-27.53deg);
+}
+
 section>.sub_txt {
   position: absolute;
   top: 50%;
-  left: -100px;
+  left: -80px;
   transform: translateY(-50%);
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.43em;
-  font-size: 15px;
+  font-size: 13px;
   transform: rotate(-90deg);
 }
 
@@ -180,7 +196,7 @@ section>.info {
   position: absolute;
   font-family: Roboto;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 250%;
   text-align: justify;
   letter-spacing: 0.225em;
@@ -188,23 +204,24 @@ section>.info {
 }
 
 section>.info1 {
-  width: 220px;
+  width: 200px;
   height: 99px;
-  top: 601px;
-  left: 271px;
+  top: 550px;
+  left: 310px;
 }
 
 section>.info2 {
-  width: 220px;
-  top: 601px;
-  left: 551px;
+  width: 200px;
+  top: 550px;
+  left: 571px;
 }
 
 section>.button {
+  width: 250px;
   position: absolute;
   z-index: 100;
-  top: 610px;
-  left: 905px;
+  top: 550px;
+  left: 890px;
   transform: scale(1);
   transition: transform 0.5s;
 }
@@ -212,9 +229,5 @@ section>.button {
 section>.button:hover {
   transform: scale(0.99);
 }
+
 /* 섹션 끝 */
-
-
-/* 섹션 효과 시작 */
-
-/* 섹션 효과 끝 */
