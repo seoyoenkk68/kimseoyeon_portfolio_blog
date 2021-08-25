@@ -201,7 +201,20 @@ section>.info2 {
 }
 
 section>.button {
-  display: block;
+  position: absolute;
+  z-index: 100;
+  top: 610px;
+  left: 905px;
+  transform: scale(1);
+  transition: transform 0.5s;
 }
 
+section>.button:hover {
+  transform: scale(0.99);
+}
 /* 섹션 끝 */
+
+
+/* 섹션 효과 시작 */
+
+/* 섹션 효과 끝 */
