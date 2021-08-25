@@ -184,10 +184,10 @@ section>.graphic3 {
 section>.graphic4 {
   position: absolute;
   width: 111px;
-  bottom: 100px;
+  bottom: 95px;
   right: 590px;
   animation-name: around;
-  animation-duration: 15gis;
+  animation-duration: 15s;
   animation-play-state: running;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
