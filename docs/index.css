@@ -1,0 +1,21 @@
+/* 폰트불러오기 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@100;300;400&display=swap');
+
+body {
+  width: 1920px;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #0F1842;
+  position: relative;
+}
+
+header {
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+header > .wrap {
+  background-color: pink;
+  height: 110px;
+  padding: 0 20px;
+}
