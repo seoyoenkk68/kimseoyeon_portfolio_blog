@@ -58,3 +58,45 @@ function effect1() {
 }
 
 effect1();
+
+// 메인 gsap
+function effect2() {
+
+  gsap.from(".main_txt>span:nth-of-type(1)", {
+    y:50,
+    opacity:0,
+    duration:0.8,
+  })
+
+  gsap.from(".main_txt>span:nth-of-type(2)", {
+    y:50,
+    opacity:0,
+    duration:0.8,
+    delay: 0.8,
+  })
+
+
+  gsap.from(".info", {
+    y:10,
+    opacity:0,
+    duration:0.8,
+    delay: 1,
+  })
+
+  gsap.from(".button", {
+    opacity:0,
+    duration:0.8,
+    delay: 1,
+  })
+
+
+  gsap.from(".graphic1", {
+    opacity:0,
+    duration:1.6,
+    delay: 0.8,
+    ease: Power2.easeIn,
+  })  
+
+}
+
+effect2();
