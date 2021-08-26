@@ -4,48 +4,43 @@
 body {
   width: 1920px;
   background-color: #0F1842;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* 헤더 시작 */
 header {
+  position: fixed;
   font-family: 'Playfair Display', serif;
   color: white;
+  width: 100%;
 }
 
 header>.wrap {
   /* background-color: pink; */
   height: 81px;
-  background-color: pink;
+  margin: 0 20px;
+  /* background-color: pink; */
 }
 
 header>.wrap>.logo {
   font-weight: 900;
   font-size: 27px;
   line-height: 87.19%;
-  width: 280px;
   /* background-color: paleturquoise; */
   position: relative;
 }
 
-header>.wrap>.logo::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 0;
-  width: 1.5px;
-  height: 44px;
-  background-color: white;
+header>.wrap>.menu-space {
+  flex-grow: 1;
 }
 
 header>.wrap>.menu-box {
   font-size: 18px;
+  margin-right: 150px;
 }
 
 header>.wrap>.menu-box>.menu {
-  /* background-color: teal; */
-  width: 640px;
+  width: 409px;
 }
 
 header>.wrap>.link {
@@ -53,19 +48,7 @@ header>.wrap>.link {
   font-weight: 300;
   font-size: 13.4759px;
   letter-spacing: 0.375em;
-  width: 460px;
   position: relative;
-}
-
-header>.wrap>.link::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  width: 1.5px;
-  height: 44px;
-  background-color: white;
 }
 
 header>.wrap>.link>ul>li:first-child {
@@ -96,3 +79,121 @@ header li:hover a::before {
 }
 
 /* 헤더 메뉴 호버 효과 끝 */
+
+/* 히어로 섹션 시작 */
+.hero {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.hero_txt {
+  position: absolute;
+  left: 50%;
+  bottom: 200px;
+  transform: translateX(-50%);
+  color: #E7454A;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 195px;
+}
+
+img.bg-img {
+  display: block;
+  width: 100%;
+  height: 1046px;
+}
+
+/* 히어로 섹션 끝 */
+
+.con {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+/* 오버뷰 섹선 시작 */
+.overview {
+  margin-top: 303px;
+}
+
+.overview>.con>h1 {
+  text-align: center;
+  font-family: Playfair Display;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 93px;
+  color: #A7D4DE;
+  margin-bottom: 158px;
+}
+
+
+.overview>.con>.content_txt>.title>span {
+  display: inline-block;
+  width: 422px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 29.1892px;
+  line-height: 185%;
+  text-align: justify;
+  letter-spacing: 0.150em;
+  color: #FFFFFF;
+}
+
+.overview>.con>.content_txt>.content>span {
+  display: block;
+  font-size: 18px;
+  line-height: 185%;
+  text-align: justify;
+  letter-spacing: -0.065em;
+  color: #FFFFFF;
+  /* border: 1px solid red; */
+}
+
+.overview>.con>.content_txt>.content>span:nth-of-type(1) {
+  margin-bottom: 35px;
+}
+
+.overview>.con>.keyword {
+  width: 100%;
+  margin-top: 125px;
+}
+
+.overview>.con>.keyword>.keyword-txt>span {
+  display: block;
+  text-align: center;
+}
+
+.overview>.con>.keyword>.keyword-txt>span:nth-of-type(1) {
+  font-family: Playfair Display;
+  font-size: 26.7767px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.overview>.con>.keyword>.keyword-txt>span:nth-of-type(2) {
+  font-family: Noto Sans KR;
+  font-weight: 100;
+  font-size: 16.1835px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-top: 13px;
+}
+
+.overview>.con>.keyword>.keyword-txt>span:nth-of-type(2)::after {
+  content: "";
+  display: block;
+  width: 365px;
+  height: 3px;
+  background-color: white;
+  margin-top: 13px;
+}
+
+/* 오버뷰 섹선 끝 */
+
+/* 리드모어 섹션 시작 */
+.readMore {
+  margin-top: 360px;
+}
+/* 리드모어 섹션 끝*/
