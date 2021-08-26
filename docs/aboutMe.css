@@ -196,4 +196,167 @@ img.bg-img {
 .readMore {
   margin-top: 360px;
 }
-/* 리드모어 섹션 끝*/
+
+.readMore>.con>h1 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53.6429px;
+  line-height: 72px;
+  text-align: justify;
+  letter-spacing: 0.275em;
+  color: #E7454A;
+  margin-bottom:32px;
+}
+
+.readMore>.con>.content-box>.box__txt {
+  position: relative;
+} 
+
+.readMore>.con>.content-box>.box__txt>span {
+  display: block;
+  font-family: Playfair Display;
+  font-size: 22.0595px;
+  line-height: 145%;
+  text-align: justify;
+  color: #FFFFFF;
+  margin-bottom: 92px;
+}
+
+.readMore>.con>.content-box>.box__txt>div>span {
+  display: block;
+  width: 234px;
+  font-family: Noto Sans KR;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.readMore>.con>.content-box>.box__txt>div>span:nth-of-type(1) {
+  margin-right:35px; 
+}
+
+.readMore>.con>.content-box>.box__txt>div::before {
+  content: "";
+  position: absolute;
+  width: 505px;
+  height: 1.5px;
+  background-color: #fff;
+  top:128px;
+  left:0;
+}
+
+.readMore>.con>.content-box>.box__img {
+  margin-left: 150px;
+}
+
+.readMore>.con>.content-box>.box__img>.img__ele_1 {
+  position: relative;
+}
+
+.readMore>.con>.content-box>.box__img>.img__ele>span {
+  display:block;
+  font-family: Playfair Display;
+  font-size: 22.0595px;
+  line-height: 145%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.readMore>.con>.content-box>.box__img>.img__ele_1>.svgWrap {
+  width: 265px;
+  height: 343px;
+  position: relative;
+  bottom:0;
+}
+
+.readMore>.con>.content-box>.box__img>.img__ele_1>.svgWrap>svg.s1 {
+  position: absolute;
+  top:0;
+  left:0;
+  stroke-dasharray: 581.5153198242188;
+  animation: svg 3s linear 1;
+  z-index: 1;
+}
+
+.readMore>.con>.content-box>.box__img>.img__ele_1>.svgWrap>svg.s1>ellipse {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 3;
+}
+
+.readMore>.con>.content-box>.box__img>.img__ele_1>.svgWrap>img.img {
+  display:block;
+  position: absolute;
+  animation-name: img;
+  animation-duration: 3s;
+}
+
+.readMore>.con>.content-box>.box__img>.img__ele_1>.svgWrap>img.img1 {
+  top: 128.5px;
+  left: 5.5px;
+  z-index:10;
+}
+
+.readMore>.con>.content-box>.box__img>.img__ele_1>.svgWrap>img.img2 {
+  top: 256.5px;
+  left: 5.5px;
+  z-index:10;
+}
+
+.readMore>.con>.content-box>.box__img>.img__ele_2>img {
+  display: block;
+  margin: 0 20px;
+  margin-top: 210px;
+}
+
+.readMore>.con>.content-box>.box__img>.img__ele_3>span{
+  display: block;
+}
+
+.readMore>.con>.content-box>.box__img>.img__ele_3>span:nth-of-type(1) {
+  margin-top: 40px;
+}
+
+
+.readMore>.con>.content-box>.box__img>.img__ele_3>span:nth-of-type(2) {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.readMore>.con>.content-box>.box__img>.img__ele_3>img {
+  display: block;
+}
+
+.readMore>.con>.content-box>.box__img>.img__ele_3>img:nth-of-type(3) {
+  margin-top: -30px;
+}
+
+@keyframes img {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes svg {
+  0% {
+    stroke-dashoffset:581.5153198242188; 
+  }
+  80% {
+    stroke-dashoffset: 581.5153198242188
+      90% {
+        stroke-dashoffset: 0
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+
+  /* 리드모어 섹션 끝*/
