@@ -12,7 +12,7 @@ body {
 /* 헤더 시작 */
 header {
   font-family: 'Playfair Display', serif;
-  color: white;
+  color: #fff;
 }
 
 header>.wrap {
@@ -41,7 +41,7 @@ header>.wrap>.logo::after {
   right: 0;
   width: 1.5px;
   height: 44px;
-  background-color: white;
+  background-color: #fff;
 }
 
 header>.wrap>.menu-box {
@@ -70,7 +70,7 @@ header>.wrap>.link::after {
   left: 0;
   width: 1.5px;
   height: 44px;
-  background-color: white;
+  background-color: #fff;
 }
 
 header>.wrap>.link>ul>li:first-child {
@@ -92,7 +92,7 @@ header li a::before {
   left: 0;
   width: 0;
   height: 1.5px;
-  background-color: white;
+  background-color: #fff;
   transition: width .3s;
 }
 

@@ -11,7 +11,7 @@ body {
 header {
   position: fixed;
   font-family: 'Playfair Display', serif;
-  color: white;
+  color: #fff;
   width: 100%;
 }
 
@@ -70,7 +70,7 @@ header li a::before {
   left: 0;
   width: 0;
   height: 1.5px;
-  background-color: white;
+  background-color: #fff;
   transition: width .3s;
 }
 
@@ -186,7 +186,7 @@ img.bg-img {
   display: block;
   width: 365px;
   height: 3px;
-  background-color: white;
+  background-color: #fff;
   margin-top: 13px;
 }
 
