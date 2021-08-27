@@ -439,13 +439,106 @@ img.bg-img {
   position: absolute;
   top: 50%;
   transform: translatey(-50%);
-  right: -55px;;
+  right: -55px;
+  ;
   width: 1px;
   height: 72px;
   border-right: 1px dashed #FFFFFF;
 }
 
-.skills>.con>.wrap>.content-box>div.box-wrap:nth-of-type(3) >span::after {
+.skills>.con>.wrap>.content-box>div.box-wrap:nth-of-type(3)>span::after {
   visibility: hidden;
 }
+
 /* 스킬스 섹션 끝 */
+
+
+/* 프로필 시작 */
+.profile {
+  margin-top: 360px;
+}
+
+.profile>.con>h1 {
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 70px;
+  line-height: 93px;
+  color: #A7D4DE;
+  margin-bottom: 177px;
+}
+
+.profile>.con>.wrap>.content-box {
+  margin-left: 40px;
+}
+
+.profile>.con>.wrap>.content-box>.name {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 61.9677px;
+  line-height: 57px;
+  color: #FFFFFF;
+  margin-bottom: 45px;
+  position: relative;
+}
+
+.profile>.con>.wrap>.content-box>.name::after {
+  content: "";
+  position: absolute;
+  bottom: -22.5px;
+  left: 0;
+  width: 455px;
+  height: 1.5px;
+  background-color: #fff;
+}
+
+.profile>.con>.wrap>.content-box>.txt {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+.profile>.con>.wrap>.content-box>.txt1 {
+  font-weight: 100;
+}
+
+.profile>.con>.wrap>.content-box>.txt-c>span:nth-of-type(1) {
+  margin-right: 20px;
+}
+
+.profile>.con>.btn-wrap {
+  margin: 0 auto;
+  margin-top: 327px;
+  justify-content: space-between;
+  width: 541px;
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #fff;
+}
+
+.profile>.con>.btn-wrap>.btn {
+  width: 145px;
+  height: 42px;
+  background-color: #5D669D;
+  border-radius: 30px;
+  border: 1px solid #fff;
+}
+
+.profile>.con>.btn-wrap>.btn-2 {
+  background-color: #fff;
+  color: #000;
+}
+
+.profile>.con>.btn-wrap>.btn>a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 프로필 끝 */
