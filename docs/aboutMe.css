@@ -206,12 +206,12 @@ img.bg-img {
   text-align: justify;
   letter-spacing: 0.275em;
   color: #E7454A;
-  margin-bottom:32px;
+  margin-bottom: 32px;
 }
 
 .readMore>.con>.content-box>.box__txt {
   position: relative;
-} 
+}
 
 .readMore>.con>.content-box>.box__txt>span {
   display: block;
@@ -234,7 +234,7 @@ img.bg-img {
 }
 
 .readMore>.con>.content-box>.box__txt>div>span:nth-of-type(1) {
-  margin-right:35px; 
+  margin-right: 35px;
 }
 
 .readMore>.con>.content-box>.box__txt>div::before {
@@ -243,8 +243,8 @@ img.bg-img {
   width: 505px;
   height: 1.5px;
   background-color: #fff;
-  top:128px;
-  left:0;
+  top: 128px;
+  left: 0;
 }
 
 .readMore>.con>.content-box>.box__img {
@@ -256,7 +256,7 @@ img.bg-img {
 }
 
 .readMore>.con>.content-box>.box__img>.img__ele>span {
-  display:block;
+  display: block;
   font-family: Playfair Display;
   font-size: 22.0595px;
   line-height: 145%;
@@ -270,13 +270,13 @@ img.bg-img {
   width: 265px;
   height: 343px;
   position: relative;
-  bottom:0;
+  bottom: 0;
 }
 
 .readMore>.con>.content-box>.box__img>.img__ele_1>.svgWrap>svg.s1 {
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   stroke-dasharray: 581.5153198242188;
   animation: svg 3s linear 1;
   z-index: 1;
@@ -289,7 +289,7 @@ img.bg-img {
 }
 
 .readMore>.con>.content-box>.box__img>.img__ele_1>.svgWrap>img.img {
-  display:block;
+  display: block;
   position: absolute;
   animation-name: img;
   animation-duration: 3s;
@@ -298,13 +298,13 @@ img.bg-img {
 .readMore>.con>.content-box>.box__img>.img__ele_1>.svgWrap>img.img1 {
   top: 128.5px;
   left: 5.5px;
-  z-index:10;
+  z-index: 10;
 }
 
 .readMore>.con>.content-box>.box__img>.img__ele_1>.svgWrap>img.img2 {
   top: 256.5px;
   left: 5.5px;
-  z-index:10;
+  z-index: 10;
 }
 
 .readMore>.con>.content-box>.box__img>.img__ele_2>img {
@@ -313,7 +313,7 @@ img.bg-img {
   margin-top: 210px;
 }
 
-.readMore>.con>.content-box>.box__img>.img__ele_3>span{
+.readMore>.con>.content-box>.box__img>.img__ele_3>span {
   display: block;
 }
 
@@ -339,6 +339,7 @@ img.bg-img {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -346,17 +347,105 @@ img.bg-img {
 
 @keyframes svg {
   0% {
-    stroke-dashoffset:581.5153198242188; 
+    stroke-dashoffset: 581.5153198242188;
   }
+
   80% {
-    stroke-dashoffset: 581.5153198242188
-      90% {
-        stroke-dashoffset: 0
-    }
-    100% {
-      stroke-dashoffset: 0;
-    }
+    stroke-dashoffset: 581.5153198242188;
   }
 
+  90% {
+    stroke-dashoffset: 0;
+  }
 
-  /* 리드모어 섹션 끝*/
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+/* 리드모어 섹션 끝*/
+
+
+/* 스킬스 섹션 시작 */
+.skills {
+  margin-top: 360px;
+}
+
+.skills>.con>h1 {
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 70px;
+  line-height: 93px;
+  color: #A7D4DE;
+  margin-bottom: 156px;
+}
+
+.skills>.con>.wrap>.title {
+  display: block;
+  text-align: center;
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 39px;
+  color: #fff;
+  margin-bottom: 41px;
+}
+
+.skills>.con>.wrap>.content-box {
+  justify-content: space-between;
+}
+
+.skills>.con>.wrap>.content-box:nth-of-type(1) {
+  margin-bottom: 192px;
+  position: relative;
+}
+
+.skills>.con>.wrap>.content-box:nth-of-type(1)::after {
+  content: "";
+  position: absolute;
+  bottom: -96px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
+
+.skills>.con>.wrap>.content-box>.box-wrap>img {
+  display: block;
+  width: 96px;
+  margin-right: 23px;
+}
+
+.skills>.con>.wrap>.content-box>.box-wrap>span {
+  display: flex;
+  align-items: center;
+  width: 245px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: justify;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.skills>.con>.wrap>.content-box>.box-wrap>span::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  right: -55px;;
+  width: 1px;
+  height: 72px;
+  border-right: 1px dashed #FFFFFF;
+}
+
+.skills>.con>.wrap>.content-box>div.box-wrap:nth-of-type(3) >span::after {
+  visibility: hidden;
+}
+/* 스킬스 섹션 끝 */
