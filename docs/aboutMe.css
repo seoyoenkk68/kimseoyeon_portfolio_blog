@@ -114,7 +114,7 @@ img.bg-img {
 
 /* 오버뷰 섹선 시작 */
 .overview {
-  margin-top: 303px;
+  margin-top: 350px;
 }
 
 .overview>.con>h1 {
@@ -369,7 +369,7 @@ img.bg-img {
 
 /* 스킬스 섹션 시작 */
 .skills {
-  margin-top: 360px;
+  margin-top: 500px;
 }
 
 .skills>.con>h1 {
@@ -455,7 +455,8 @@ img.bg-img {
 
 /* 프로필 시작 */
 .profile {
-  margin-top: 360px;
+  margin-top: 500px;
+  margin-bottom: 250px;
 }
 
 .profile>.con>h1 {
