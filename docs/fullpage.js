@@ -3,5 +3,5 @@ new fullpage('#fullpage', {
     /* scrollOverflow:true, */
     navigation:true,
     navigationPosition: 'left',
-    anchors: ['hero', 'overView', 'skills', 'readMore', 'profile']
+    anchors: ['hero', 'overView', 'readMore', 'skills', 'profile']
   });
