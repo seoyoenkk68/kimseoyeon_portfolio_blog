@@ -97,7 +97,7 @@ header li:hover a::before {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 1420px;
+  max-width: 1520px;
   margin: 0 auto;
   height: 100%;
 }
