@@ -55,8 +55,8 @@ function TabBox__init() {
 
 function swiper__init() {
   const swiper = new Swiper('.swiper', {
-    slidesPerView: 3,
-    spaceBetween: 40,
+    slidesPerView: 4,
+    spaceBetween: 30,
 
     // Navigation arrows
     navigation: {
